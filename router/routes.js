@@ -16,7 +16,7 @@ route.get('/',(req,res)=>{
 })
 
 
-route.post('/student/:roll',(req,res)=>{
+route.put('/student/:roll',(req,res)=>{
 
     let rollno=req.params.roll;
     let {name,age,roll,grade}=req.body;
